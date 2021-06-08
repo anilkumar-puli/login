@@ -1,5 +1,4 @@
 Description = login Service
-
 [Service]
 user=ubuntu
 Environment=USERS_API_ADDRESS=http://user_endpoint:8080
