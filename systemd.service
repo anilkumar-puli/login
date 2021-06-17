@@ -3,7 +3,7 @@ Description = login Service
 user=ubuntu
 Environment=USERS_API_ADDRESS=http://user_endpoint:8080
 Environment=AUTH_API_PORT=8080
-ExecStart=/home/ubuntu/login/login*
+ExecStart=/home/ubuntu/login/login-ci
 SyslogIdentifier=login
 [Install]
 WantedBy=multi-user.target
